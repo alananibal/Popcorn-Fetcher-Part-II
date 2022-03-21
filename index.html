@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Popcorn Fetcher</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+        <link rel="stylesheet" href="./assets/styles/styles.css">
+      </head>
+<body>
+    <!--Header  -->
+    <header><h1 class="is-size-2 has-text-centered has-text-light has-background-primary py-4">Popcorn Fetcher</h1>
+    </header>
+    
+    <!-- Navgation -->
+    <nav class="section">
+        <div clas="block width; 90%">
+            
+            <p class="px-6 py-5 has-text-left">
+            For those of you who like to create a post about movies and want to quickly fetch information about them, 
+            <br>
+            <span>Popcorn-Fetcher</span>is the perfect app for you! Here you can see movies title, poster, cast, plot and genre.
+            <br>
+            Plus you can find a cool gif about the movie to include on your “MoviePost”!!
+            </p>
+          
+            <input class="input is-rounded is-primary m-1" type="text" id="movie-value">
+            <button class="button is-medium is-primary is-rounded m-1 is-fullwidth" id="submit">Fetch Popcorns</button>
+        </div>
+    </nav>
+
+    <!-- Main -->
+    <main class="section">
+       <div class="container">
+            <!-- Movies -->
+            <div class="columns" id="moviesContainer"></div>
+            <!-- gifs -->
+            <aside class="block-container" id="gifsContainer"></aside>
+            
+       </div>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
