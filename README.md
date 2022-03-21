@@ -9,10 +9,7 @@ A website that displays movie related information including movie titles, plot s
 * JS
 
 
-## Website
-https://alananibal.github.io/Popcorn-Fetcher/#
 
-<img width="1144" alt="Screen Shot 2022-03-20 at 10 04 16 PM" src="https://user-images.githubusercontent.com/97851357/159208738-9673b155-8103-4478-8eec-5ca7f9a7b3b0.png">
 
 
 ## Contribution
