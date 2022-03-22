@@ -5,13 +5,12 @@
 }
 
 .hero {
-background-image: url(../images/popcorn.webp);
+background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(../images/popcorn.webp);
 height: 470px;
 /* background-repeat: no-repeat; */
 background-size: cover;
 background-position: left;
 position: relative;
-opacity: 0.9;
 
 
 }
