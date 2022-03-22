@@ -4,6 +4,25 @@
     box-sizing: border-box;
   }
 
+.hero {
+  background-image: url(../images/popcorn.webp);
+  height: 490px;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  background-position: left;
+  position: relative;
+  padding: 40px;
+
+}
+
+.description{
+ 
+  margin-right: 70rem;
+  background-color: rgba(127, 255, 212, 0.555);
+  border-radius: 25px;
+  color: #4b0303;
+  
+}
 
 .block-container {
     margin: 25px 0;
